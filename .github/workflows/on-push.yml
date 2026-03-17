@@ -10,7 +10,7 @@ jobs:
         otp: ["23.3.3"]
         elixir: ["1.9.4", "1.10.4", "1.11.4", "1.12.3"]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - uses: erlef/setup-elixir@v1
         with:
           otp-version: ${{matrix.otp}}
